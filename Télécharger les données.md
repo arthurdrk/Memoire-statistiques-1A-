@@ -11,9 +11,7 @@ Ce guide fournit les étapes pour accéder et transformer le jeu de données de 
 5. Connectez-vous avec un compte **Google** ou une autre option pour accéder aux fichiers.
 6. Sélectionnez le fichier au format **.csv** parmi les options de téléchargement disponibles (**sav, dta, csv**).
 
-## Étape 2 : Convertir les Données en Format SAS (Optionnel)
-
-Pour les utilisateurs qui ont besoin des données au format **SAS**, suivez ces étapes :
+## Étape 2 : Convertir les Données en Format SAS
 
 ```sas
 proc import datafile = 'YOUR_PATH/ESS6e02_5.csv'
@@ -22,24 +20,3 @@ proc import datafile = 'YOUR_PATH/ESS6e02_5.csv'
     guessingrows=max;
 run;
 ```
-
-Pour vérifier l'importation, vous pouvez ajouter :
-
-```sas
-proc freq data=ess;
-table cntry;
-run;
-```
-
-Une fois l'importation réussie, SAS confirmera avec le message suivant :
-
-> NOTE: WORK.ESS data set was successfully created.  
-> NOTE: The data set WORK.ESS has 54,673 observations and 625 variables.
-
-Par défaut, SAS enregistre la table dans la bibliothèque temporaire **WORK.ESS**.
-
-## Étape 3 : Sauvegarder les Commandes SAS
-
-1. Enregistrez ces commandes dans un fichier nommé **ESS6e02_5.sas** avant de quitter SAS.
-2. Assurez-vous que le jeu de données est enregistré dans une bibliothèque non temporaire pour une utilisation future.
-
