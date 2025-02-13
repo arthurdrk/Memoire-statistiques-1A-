@@ -1,6 +1,6 @@
 # Comment Récupérer les Données
 
-Ce guide fournit les étapes pour accéder et transformer le jeu de données de l'**European Social Survey (ESS)** utilisé dans ce projet de sociologie. Suivez les instructions ci-dessous pour obtenir les données au format **.csv** et, si nécessaire, les convertir en **SAS**.
+Ce guide fournit les étapes pour accéder au jeu de données de l'**European Social Survey (ESS)** utilisé dans ce projet. Suivez les instructions ci-dessous pour obtenir les données au format **.csv** et les convertir en **SAS**.
 
 ## Étape 1 : Télécharger les Données ESS au Format .csv
 
