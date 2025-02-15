@@ -14,21 +14,15 @@ Ce projet explore les liens entre le bonheur et divers facteurs liés au travail
 📂 Projet-Bonheur-SAS/
 │── 📜 README.md           # Documentation du projet
 │── 📜 mémoire_sas.pdf     # Mémoire détaillant l'étude
-│── 📜 code_sas.sas        # Code SAS utilisé pour l'analyse
-│── 📜 ess_data.csv        # Données de l'ESS (échantillon filtré pour la France)
-│── 📂 graphs/             # Graphiques générés
-│── 📂 reports/            # Rapports et exports de résultats
+│── 📜 main.sas        # Code SAS utilisé pour l'analyse
+│── 📜 télécharger les données.md        # Tutoriel pour télécharger les données de l'ESS (échantillon filtré pour la France)
+│── 📂 img/             # Graphiques générés
 ```
 
 ## 🚀 Installation & Exécution
 ### 📌 Prérequis
 - **SAS** (logiciel ou SAS OnDemand for Academics)
 - Fichier de données ESS (fourni dans le projet)
-
-### ▶️ Exécution du Code
-1. **Importer les données** : Vérifiez que `ess_data.csv` est bien placé dans le répertoire de travail.
-2. **Lancer le script SAS** : Exécutez `code_sas.sas` dans votre environnement SAS.
-3. **Visualiser les résultats** : Les analyses et graphiques seront générés dans le dossier `graphs/`.
 
 ## 📊 Méthodologie
 1. **Analyse initiale** : Étude des relations entre bonheur et facteurs professionnels.
@@ -52,5 +46,4 @@ Ce projet explore les liens entre le bonheur et divers facteurs liés au travail
 - Comparaisons **internationales** sur la relation travail-bonheur.
 - Développement d'une **interface interactive** pour visualiser les analyses.
 
-📌 *Ce projet est open-source ! Contributions et discussions bienvenues.* 🎉
 
