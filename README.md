@@ -1,4 +1,4 @@
-# Analyse du Bonheur avec SAS
+# Analyse du lien entre travail et bonheur avec SAS
 
 ## 📌 Présentation du Projet
 Ce projet explore les liens entre le bonheur et divers facteurs liés au travail, notamment le salaire, le temps de travail et le niveau de responsabilité. À partir des données de l'**European Social Survey (ESS) - Vague 6 (2012)**, une analyse statistique a été réalisée avec **SAS** pour construire un indice synthétique du bonheur et un indicateur de "qualité de l'emploi".
