@@ -30,20 +30,9 @@ Ce projet explore les liens entre le bonheur et divers facteurs liés au travail
 3. **Création de l'indice de qualité de l'emploi** (salaire, équilibre pro/perso, autonomie au travail).
 4. **Interprétation des résultats** : Corrélations, régressions et visualisations.
 
-## 📈 Résultats Clés
-- Le bonheur augmente avec le **revenu**, mais ne montre pas de plateau clair.
-- L'**équilibre travail/vie personnelle** a un effet significatif sur le bien-être.
-- Une **plus grande autonomie au travail** est corrélée à un niveau de bonheur plus élevé.
-- L'**indice de qualité de l'emploi** est modérément corrélé au bonheur (`r = 0.36`).
-
 ## 📚 Références
 - **European Social Survey (ESS) - Vague 6 (2012)**
 - **Kahneman & Deaton (2010)** : "High income improves evaluation of life but not emotional well-being"
 - **Killingsworth (2021)** : "Experienced well-being rises with income, even above $75,000 per year"
-
-## 🛠 Améliorations Possibles
-- Intégration de **données supplémentaires** (facteurs sociaux, santé, etc.).
-- Comparaisons **internationales** sur la relation travail-bonheur.
-- Développement d'une **interface interactive** pour visualiser les analyses.
 
 
