@@ -22,7 +22,7 @@ Ce projet explore les liens entre le bonheur et divers facteurs liés au travail
 ## 🚀 Installation & Exécution
 ### 📌 Prérequis
 - **SAS** (logiciel ou SAS OnDemand for Academics)
-- Fichier de données ESS (fourni dans le projet)
+- Fichier de données ESS
 
 ## 📊 Méthodologie
 1. **Analyse initiale** : Étude des relations entre bonheur et facteurs professionnels.
